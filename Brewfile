@@ -27,6 +27,7 @@ brew "jq"
 brew "heroku/brew/heroku"
 brew "postgresql", restart_service: false
 brew "redis", restart_service: false
+brew "yarn"
 brew "libsodium"
 brew "overmind"
 brew "glib"
