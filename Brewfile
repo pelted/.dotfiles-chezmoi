@@ -22,13 +22,15 @@ brew "direnv"
 brew "tldr"
 brew "fzf"
 brew "jq"
-brew "libsodium"
-brew "overmind"
 
 # DEV
 brew "heroku/brew/heroku"
 brew "postgresql", restart_service: false
 brew "redis", restart_service: false
+brew "libsodium"
+brew "overmind"
+brew "glib"
+brew "vips"
 
 # CASK APPS
 cask "1password"
