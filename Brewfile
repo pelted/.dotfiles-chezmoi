@@ -8,6 +8,7 @@ brew "mas"
 
 # SHELL
 brew "git"
+brew "1password-cli"
 brew "zsh-autosuggestions"
 brew "zsh-syntax-highlighting"
 brew "terminal-notifier"
