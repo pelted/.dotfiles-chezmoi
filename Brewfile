@@ -50,6 +50,7 @@ cask "vscodium"
 cask "font-source-code-pro-for-powerline"
 cask "font-jetbrains-mono-nerd-font"
 cask "font-fira-code-nerd-font"
+cask "font-monaspace-nerd-font"
 cask "font-victor-mono-nerd-font"
 
 # MAC APP STORE
