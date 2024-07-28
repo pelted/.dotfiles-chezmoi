@@ -46,6 +46,12 @@ cask "suspicious-package"
 cask "transmit"
 cask "vscodium"
 
+# FONTS
+cask "font-source-code-pro-for-powerline"
+cask "font-jetbrains-mono-nerd-font"
+cask "font-fira-code-nerd-font"
+cask "font-victor-mono-nerd-font"
+
 # MAC APP STORE
 mas "1Password for Safari", id: 1569813296
 mas "Actions", id: 1586435171
