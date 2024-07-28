@@ -26,6 +26,8 @@ brew "pg"
 
 # DEV
 brew "heroku/brew/heroku"
+brew "postgresql", restart_service: false
+brew "redis", restart_service: false
 
 # CASK APPS
 cask "1password"
