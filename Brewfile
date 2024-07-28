@@ -42,7 +42,7 @@ cask "vscodium"
 cask "suspicious-package"
 cask "dash"
 cask "docker"
-cask "dockerutil"
+cask "ngrok"
 
 # MAC APP STORE
 
