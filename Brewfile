@@ -33,6 +33,7 @@ cask "iterm2"
 cask "vscodium"
 cask "suspicious-package"
 cask "dash"
+cask "docker"
 
 # MAC APP STORE
 
