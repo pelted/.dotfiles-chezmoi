@@ -7,48 +7,54 @@ brew "chezmoi"
 brew "mas"
 
 # SHELL
-brew "git"
-brew "gh"
-brew "zsh-autosuggestions"
-brew "zsh-syntax-highlighting"
-brew "spaceship"
-brew "terminal-notifier"
-brew "fortune"
 brew "bat"
 brew "cdargs"
 brew "ctags"
-brew "stow"
 brew "direnv"
-brew "tldr"
+brew "fortune"
 brew "fzf"
+brew "gh"
+brew "git"
 brew "jq"
+brew "spaceship"
+brew "stow"
+brew "terminal-notifier"
+brew "tldr"
+brew "zsh-autosuggestions"
+brew "zsh-syntax-highlighting"
 
 # DEV
+brew "docker-completion"
+brew "glib"
 brew "heroku/brew/heroku"
-brew "postgresql", restart_service: false
-brew "redis", restart_service: false
-brew "yarn"
+brew "libpq"
 brew "libsodium"
 brew "overmind"
-brew "glib"
+brew "postgresql", restart_service: false
+brew "redis", restart_service: false
 brew "vips"
-brew "docker-completion"
+brew "yarn"
 
 # CASK APPS
-cask "1password"
 cask "1password-cli"
-cask "iterm2"
-cask "vscodium"
-cask "suspicious-package"
+cask "1password"
 cask "dash"
 cask "docker"
+cask "iterm2"
 cask "ngrok"
+cask "suspicious-package"
+cask "transmit"
+cask "vscodium"
+cask "zoom"
 
 # MAC APP STORE
-
-mas "WireGuard", id: 1451685025
+mas "1Password for Safari", id: 1569813296
+mas "Actions", id: 1586435171
+mas "DevTools", id: 6444775708
 mas "Fantastical Calendar", id: 975937182
-mas "Okta Verify", id: 490179405
 mas "Hush Nag Blocker", id: 1544743900
-mas "Lanscan", id: 472226235
 mas "Kagi for Safari", id: 1622835804
+mas "Lanscan", id: 472226235
+mas "Okta Verify", id: 490179405
+mas "Widgy Widgets", id: 1524540481
+mas "WireGuard", id: 1451685025
