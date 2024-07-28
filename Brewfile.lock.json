@@ -911,6 +911,12 @@
         "options": {
           "full_name": "1password"
         }
+      },
+      "docker": {
+        "version": "4.33.0,160616",
+        "options": {
+          "full_name": "docker"
+        }
       }
     },
     "mas": {
