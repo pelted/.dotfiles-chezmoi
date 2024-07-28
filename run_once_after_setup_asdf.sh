@@ -1,6 +1,6 @@
 #!/bin/bash
 
-brew "asdf"
+brew install asdf
 
 asdf plugin add ruby
 asdf plugin-update ruby
