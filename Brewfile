@@ -8,7 +8,6 @@ brew "mas"
 
 # SHELL
 brew "git"
-brew "1password-cli"
 brew "zsh-autosuggestions"
 brew "zsh-syntax-highlighting"
 brew "terminal-notifier"
@@ -20,6 +19,7 @@ brew "stow"
 
 # DEV
 brew "heroku/brew/heroku"
+cask "1password-cli"
 
 # CASK APPS
 cask "iterm2"
