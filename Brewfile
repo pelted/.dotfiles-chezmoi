@@ -32,6 +32,8 @@ brew "libsodium"
 brew "overmind"
 brew "glib"
 brew "vips"
+brew "dockerutil"
+brew "docker-completion"
 
 # CASK APPS
 cask "1password"
