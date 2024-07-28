@@ -32,7 +32,6 @@ brew "libsodium"
 brew "overmind"
 brew "glib"
 brew "vips"
-brew "dockerutil"
 brew "docker-completion"
 
 # CASK APPS
@@ -43,6 +42,7 @@ cask "vscodium"
 cask "suspicious-package"
 cask "dash"
 cask "docker"
+cask "dockerutil"
 
 # MAC APP STORE
 
