@@ -49,6 +49,7 @@ source $HOME/.config/op/plugins.sh
 source /opt/homebrew/Cellar/cdargs/2.1/contrib/cdargs-bash.sh
 test -e "${HOME}/.iterm2_shell_integration.zsh" && source "${HOME}/.iterm2_shell_integration.zsh"
 
+. /opt/homebrew/opt/asdf/libexec/asdf.sh
 
 export LANG=en_US.UTF-8
 
