@@ -19,9 +19,10 @@ brew "stow"
 
 # DEV
 brew "heroku/brew/heroku"
-cask "1password-cli"
 
 # CASK APPS
+cask "1password"
+cask "1password-cli"
 cask "iterm2"
 cask "vscodium"
 cask "suspicious-package"
