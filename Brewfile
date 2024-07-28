@@ -8,6 +8,7 @@ brew "mas"
 
 # SHELL
 brew "git"
+brew "gh"
 brew "zsh-autosuggestions"
 brew "zsh-syntax-highlighting"
 brew "spaceship"
