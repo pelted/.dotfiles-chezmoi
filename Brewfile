@@ -22,7 +22,6 @@ brew "direnv"
 brew "tldr"
 brew "fzf"
 brew "jq"
-brew "pg"
 
 # DEV
 brew "heroku/brew/heroku"
