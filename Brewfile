@@ -43,9 +43,12 @@ cask "docker"
 cask "iterm2"
 cask "moonlight"
 cask "ngrok"
+cask "orion"
 cask "suspicious-package"
 cask "transmit"
 cask "vscodium"
+cask "google-chrome"
+cask "firefox"
 
 # FONTS
 cask "font-source-code-pro-for-powerline"
