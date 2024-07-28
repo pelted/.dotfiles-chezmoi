@@ -30,7 +30,7 @@ brew "heroku/brew/heroku"
 brew "libpq"
 brew "libsodium"
 brew "overmind"
-brew "postgresql", restart_service: false
+brew "postgresql@14", restart_service: false
 brew "redis", restart_service: false
 brew "vips"
 brew "yarn"
