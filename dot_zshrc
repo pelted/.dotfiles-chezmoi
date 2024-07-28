@@ -73,6 +73,7 @@ killit() {
 bindkey "^[^[[C" forward-word
 bindkey "^[^[[D" backward-word
 
+alias code="$EDITOR"
 alias zshconfig="$EDITOR ~/.zshrc"
 alias zconfig="$EDITOR ~/.zshrc"
 alias ohmyzsh="$EDITOR ~/.oh-my-zsh"
