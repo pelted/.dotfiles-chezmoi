@@ -51,7 +51,7 @@ cask "font-source-code-pro-for-powerline"
 cask "font-jetbrains-mono-nerd-font"
 cask "font-fira-code-nerd-font"
 cask "font-monaspace-nerd-font"
-cask "font-victor-mono-nerd-font"
+cask "font-meslo-lg-nerd-font"
 
 # MAC APP STORE
 mas "1Password for Safari", id: 1569813296
