@@ -22,6 +22,8 @@ brew "direnv"
 brew "tldr"
 brew "fzf"
 brew "jq"
+brew "libsodium"
+brew "overmind"
 
 # DEV
 brew "heroku/brew/heroku"
