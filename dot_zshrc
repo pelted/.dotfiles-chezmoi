@@ -4,7 +4,7 @@ export ZSH="$HOME/.oh-my-zsh"
 source $HOME/.zshenv
 
 # Load Prompt
-source /opt/homebrew/opt/spaceship/spaceship.zsh
+# source /opt/homebrew/opt/spaceship/spaceship.zsh
 
 # Set up fzf key bindings and fuzzy completion
 source <(fzf --zsh)

@@ -16,7 +16,7 @@ brew "fzf"
 brew "gh"
 brew "git"
 brew "jq"
-brew "spaceship"
+brew "starship"
 brew "stow"
 brew "terminal-notifier"
 brew "tldr"
@@ -45,7 +45,6 @@ cask "ngrok"
 cask "suspicious-package"
 cask "transmit"
 cask "vscodium"
-cask "zoom"
 
 # MAC APP STORE
 mas "1Password for Safari", id: 1569813296
