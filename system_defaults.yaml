@@ -1,0 +1,79 @@
+com.apple.dock:
+  autohide: true
+  orientation: left
+  magnification: false
+  tilesize: 42
+
+NSGlobalDomain:
+  # window animations
+  NSAutomaticWindowAnimationsEnabled: false
+
+  # Show menu bar in full screen
+  AppleMenuBarVisibleInFullscreen: true
+  
+  # Show all finder extensions
+  AppleShowAllExtensions: true
+  
+  # Disable switch space on app change
+  AppleSpacesSwitchOnActivate: false
+  
+  # Disable key press and hold
+  ApplePressAndHoldEnabled: false
+  
+  # Expand save panel by default
+  NSNavPanelExpandedStateForSaveMode: true
+  
+  # Turn on webkit developer tools
+  WebKitDeveloperExtras: true
+
+  # System Preferences > Keyboard > Key Repeat.
+  KeyRepeat: true
+
+  # System Preferences > Keyboard > Delay Until Repeat.
+  InitialKeyRepeat: 12
+
+com.apple.desktopservices:
+  # Disable .DS_Store files on network drives.
+  DSDontWriteNetworkStores: true
+  
+  # Disable .DS_Store files on external drives.
+  DSDontWriteUSBStores: true
+
+com.apple.finder:
+  FXPreferredGroupBy: Kind
+  FXArrangeGroupViewBy: Name
+  RecentsArrangeGroupViewBy: Date Last Opened
+  FXPreferredViewStyle: Nlsv
+  FXDefaultSearchScope: SCcf
+  
+  # Show Path bar in Finder
+  ShowPathbar: true
+
+  # Show Status bar in Finder
+  ShowStatusBar: true
+
+  # Enable "Quit Finder" menu item.
+  QuitMenuItem: true
+
+  # Finder > Preferences > Show these items on the desktop > Hard disks.
+  ShowHardDrivesOnDesktop: true
+  ShowExternalHardDrivesOnDesktop: true
+  ShowMountedServersOnDesktop: true
+  ShowRemovableMediaOnDesktop: true
+
+com.apple.Safari:
+  # Use substring search by default in Safari.
+  FindOnPageMatchesWordStartsOnly: false
+
+  # Enable the Develop menu and the Web Inspector in Safari
+  IncludeInternalDebugMenu: true
+  IncludeDevelopMenu: true
+  WebKitDeveloperExtrasEnabledPreferenceKey: true
+
+com.apple.NetworkBrowser:
+  # Enable AirDrop over Ethernet and on unsupported Macs
+  BrowseAllInterfaces: true
+
+com.kapeli.dashdoc:
+  # Dash > Preferences > General > Behavior > Show dock icon > Off.
+  showInDock: false

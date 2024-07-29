@@ -1,0 +1,4 @@
+com.apple.dock
+  autohide: true
+  orientation: left
+  magnification: false
