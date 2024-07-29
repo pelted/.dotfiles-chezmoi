@@ -42,8 +42,8 @@ plugins=(
 source $ZSH/oh-my-zsh.sh
 
 source $HOME/.config/op/plugins.sh
+source $HOME/.config/cdargs-bash.sh
 
-source /opt/homebrew/Cellar/cdargs/2.1/contrib/cdargs-bash.sh
 test -e "${HOME}/.iterm2_shell_integration.zsh" && source "${HOME}/.iterm2_shell_integration.zsh"
 
 . /opt/homebrew/opt/asdf/libexec/asdf.sh
