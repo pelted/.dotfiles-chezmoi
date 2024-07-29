@@ -40,6 +40,7 @@ brew "yarn"
 # CASK APPS
 cask "1password-cli"
 cask "1password"
+cask "alfred"
 cask "dash"
 cask "docker"
 cask "firefox"
