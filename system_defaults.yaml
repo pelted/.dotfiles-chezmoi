@@ -61,19 +61,6 @@ com.apple.finder:
   ShowMountedServersOnDesktop: true
   ShowRemovableMediaOnDesktop: true
 
-com.apple.Safari:
-  # Use substring search by default in Safari.
-  FindOnPageMatchesWordStartsOnly: false
-
-  # Enable the Develop menu and the Web Inspector in Safari
-  IncludeInternalDebugMenu: true
-  IncludeDevelopMenu: true
-  WebKitDeveloperExtrasEnabledPreferenceKey: true
-
 com.apple.NetworkBrowser:
   # Enable AirDrop over Ethernet and on unsupported Macs
   BrowseAllInterfaces: true
-
-com.kapeli.dashdoc:
-  # Dash > Preferences > General > Behavior > Show dock icon > Off.
-  showInDock: false

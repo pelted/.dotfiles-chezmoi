@@ -1,7 +1,8 @@
+{{- if eq .chezmoi.os "darwin" -}}
 #!/bin/bash
 
-# Input YAML file
-input_file="$HOME/.config/system_defaults.yaml"
+# system_defaults.yaml hash: {{ include "system_defaults.yaml" | sha256sum }}
+input_file={{ joinPath .chezmoi.sourceDir "system_defaults.yaml" | quote }}
 
 # Function to trim whitespace
 trim() {
@@ -43,4 +44,5 @@ if grep -q "com.apple.dock" "$input_file"; then
     echo "Dock restarted to apply changes."
 fi
 
-echo "All commands executed."
+echo "All defaults updated."
+{{ end -}}
