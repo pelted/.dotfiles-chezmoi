@@ -21,6 +21,7 @@ brew "starship"
 brew "stow"
 brew "terminal-notifier"
 brew "tldr"
+brew "yq"
 brew "zsh-autosuggestions"
 brew "zsh-syntax-highlighting"
 
