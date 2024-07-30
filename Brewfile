@@ -51,6 +51,7 @@ cask "ngrok"
 cask "orion"
 cask "shottr"
 cask "suspicious-package"
+cask "tower"
 cask "transmit"
 cask "vscodium"
 
