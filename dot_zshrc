@@ -28,6 +28,7 @@ plugins=(
     heroku
     direnv
     extract
+    bundler
     history
     colorize
     bgnotify
