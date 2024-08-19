@@ -19,6 +19,7 @@ VSCODE=codium
 
 plugins=(
     git
+    env
     asdf
     ruby
     brew
